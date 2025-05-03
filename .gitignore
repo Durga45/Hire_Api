@@ -25,3 +25,6 @@ Thumbs.db
 
 # Optional: If you're using testing tools
 coverage/
+
+.prettierrc
+.eslint.config.mjs
