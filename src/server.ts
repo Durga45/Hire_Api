@@ -15,7 +15,7 @@ export default class Server {
     this.listenServer();
   }
   private middleware(){
-    
+    this.app.use(express.json())
   }
   private setupRoutes(){
      appRoutes(this.app)
